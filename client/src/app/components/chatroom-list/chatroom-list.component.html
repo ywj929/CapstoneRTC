@@ -1,0 +1,11 @@
+<div class="container">
+        <div class="list-group">
+                <a class="list-group-item" *ngFor="let room of rooms">
+                    <span
+                    class="{{'pull-left label type type-' + room.type.toLocaleLowerCase()}}">
+                        {{room.type}}
+                    </span>
+                    <strong class="title">{{room.id}}. {{room.name}}</strong>  
+                </a>
+        </div>              
+</div>

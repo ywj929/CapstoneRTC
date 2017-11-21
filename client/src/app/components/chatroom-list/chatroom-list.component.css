@@ -1,0 +1,25 @@
+.title {
+    font-size:1.2em
+}
+
+.type {
+    min-width: 65px;
+    margin-right: 10px;
+}
+
+.label.type {
+    padding-top: 0.3em;
+    color: #fbfdfa;
+    font-size: 14px;
+    
+}
+
+.type-game {
+    background-color: #42ebf4;
+    
+}
+
+.type-chat{
+    background-color: #dd0d1e;
+  
+}
